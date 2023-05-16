@@ -1,0 +1,168 @@
+.welcome{
+    
+    background-color:#adff2f;
+    border-radius: 100px;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img{
+    max-width: 100px;
+}
+
+input {
+    margin-bottom: 10px;
+
+}
+.login{
+    
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.login_user,.login_password,.login_button{
+    border: none;
+    
+}
+.login_button{
+    color: #FCF6F5FF;
+    background-color:#990011FF ;
+    max-width: 50px;
+}
+
+
+.account_page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.account_page>.detail{
+    display: flex;
+    justify-content: space-between;
+    background-color: #adff2f;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+.movments{
+    background-color:#FCF6F5FF;
+    border: 20px solid #FCF6F5FF ;
+    border-radius: 50px;
+    min-height: 500px;
+    width: 40%;
+    margin-bottom: 30px;
+    
+}
+.movments_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.movments_Mode_Deposit{
+    background-color: greenyellow;
+    border: 1px solid #990011FF;
+    border-radius: 20px;
+    min-width: 45px;
+}
+.movments_Mode_Withdraw{
+    background-color: rgb(255, 47, 92);
+    border: 1px solid #990011FF;
+    border-radius: 20px;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    max-height: 500px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+input{
+    border:1px dotted #990011FF;
+    border-radius:10px;
+    max-width: 100px;
+    
+}
+
+
+
+.function_transfer{
+    background-color: #adff2f;
+    border-radius: 20px;
+    padding: 20px;
+    font-size:small ;
+    max-height: 165px;
+    min-width: 200px;
+    line-height: 0.001em;
+    margin-bottom: 10px;
+    
+}
+
+.function_Loan{
+    background-color: rgb(255, 47, 75);
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 0.1em;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.Close_Account{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(54, 47, 255, 0.445);
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 10px;
+    
+}
+.Close_Account>button{
+    max-width: 50px;
+
+}
+.error{
+    font-size: small;
+    color: red;
+}
+
+
+.footer{
+    font-size: smaller;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#adff2f ;
+}
+
+
+.logout{
+    background-color: rgb(12, 29, 23);
+    color: bisque;
+    max-height: 20px;
+    margin-top: 20px;
+}
+  

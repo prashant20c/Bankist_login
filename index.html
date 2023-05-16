@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="welcome">
+        <img src="/Banksheet/logo.png">
+        <h1>Poudel Finance LTD.</h1>
+        <h5>Internet Banking login</h5>
+        <form class="login">
+            <h3 class="login_Error error"></h3>
+            <input type="text" placeholder="User Name" class="login_user" >
+            <input type="password" placeholder=Pin class="login_password">
+            <button class="login_button">LogIn</button>
+        </form>
+    </nav>
+
+    <div class="account_page">
+        <div class="detail">
+            <h1 class="ownername">welcome,</h1><h1 class="dateNow"></h1>
+            <h2 class="balance">$9000</h2>
+        </div>
+        
+        <div class="main">
+            <div class="movments">
+
+
+            </div>
+
+            <div class="function">
+                <div class="function_transfer">
+                    <h3>Transfer</h3>
+                    <h6 class="transfer_Error error"></h6>
+                    <h4>To</h4>
+                    <input class='transfer_Account m-2' type="text" placeholder="Account Name">
+                    <h4>Amount</h4>
+                    <input class='transfer_Amount m-2' type="number" placeholder=" Enter Amount">
+                    <button class="transfer_Button m-2">Transfer</button>
+                </div>
+                <div class="function_Loan">
+                    <h3>Apply for Loan</h3>
+                    <h6 class="loan_Error"></h6>
+                    <input class="loan_Amount" type="number" placeholder="Enter Amount">
+                    <button class="loan_Button">Request</button>
+                </div>
+                <div class="Close_Account">
+                    <h3>Close Account</h3>
+                    <h6 class="close_Error error"></h6>
+                    <input class="close_Account_User" type="text" placeholder="User">
+                    <input class="close_Account_PIN" type="password" placeholder="PIN">
+                    <button class="close_Button">Close</button>
+                </div>
+                <h3 class="countDown">You will be logged out in <span class="minute">10</span>:<span class="second">00</span></h3>
+
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <h2 class="in-balance">IN</h2>
+            <h2 class="out-balance">OUT</h2>
+            <h2 class="intrest">Intrest</h2>
+            <button class="sort">sort</button>
+            <button class="logout">Logout</button>
+        </footer>
+    </div>
+
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
